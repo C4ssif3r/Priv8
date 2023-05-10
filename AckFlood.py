@@ -52,7 +52,7 @@ def flood(ip_address):
 
         send_ack_packet(ip_address)
 
-if name == '__main__':
+if __name__ == '__main__':
     ipad = input ("enter ip target address: ")
     th = int(input("enter threads: "))
     for i in range(th):
